@@ -1,0 +1,9 @@
+W, H = 600, 400
+CLR_BG = '#F6F1F1'
+CLR_LT = '#19A7CE'
+CLR_DK = '#146C94'
+CLR_TX = '#000000'
+FONT_LBL = ('Courier', 10, 'normal')
+FONT_BTN = ('Courier', 8, 'bold')
+FONT_TXT = ('Courier', 10, 'normal')
+PASS_LEN = 12

@@ -1,0 +1,33 @@
+# Default Resources
+Water: 300ml
+Milk: 200ml
+Coffee: 100g
+Money: $0
+
+# Available Options
+Espresso:
+- 50ml Water
+- 18g Coffee
+
+Latte:
+- 200ml Water
+- 24g Coffee
+- 150ml Milk
+
+Cappuccino:
+- 250ml Water
+- 24g Coffee
+- 100ml Milk
+
+# Available Coins:
+- Penny 1cent
+- Nickel 5cents
+- Dime 10cents
+- Quarter 25cents
+
+# [Func] Print Resources
+# [Func] Check sufficient resources
+# [Func] Process coins
+-- How many pennies/nickels/dimes/quarters?
+-- Refund or return change based on value and sufficiency
+# [Func] Make a coffee and deduct resources
