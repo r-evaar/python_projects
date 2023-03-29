@@ -94,6 +94,10 @@ class check_database_func(BackendThread):
         self.updated = False
 
     def main(self):
+        if not os.path.isfile(DATA_FILE):
+            file = open(DATA_FILE, 'w')
+            file.close()
+
         with open(DATA_FILE, 'r') as file:
             try:
                 data = json.load(file)

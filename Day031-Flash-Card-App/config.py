@@ -1,0 +1,15 @@
+W, H = 700, 450
+GRAPHICS_PATH = './data/graphics/'
+FONTS_PATH = './data/fonts/'
+WORDS_PATH = './data/freq_dic_translated.csv'
+SAVE_PATH = './data/words_to_learn.csv'
+CLR_BG = '#F3FEFF'
+CARD_R = 0.17
+BTN_R = 0.165
+TITLE_OFFSET = 0.1
+WORD_OFFSET = 0.3
+TITLE_FONT = ('Alkatra', 30, 'italic')
+WORD_FONT_EN = ('Delicious Handrawn', 50, 'bold')
+WORD_FONT_AR = ('Lalezar', 50, 'bold')
+COMPL_FONT = ('Lalezar', 30, 'bold')
+TIMEOUT = 3
