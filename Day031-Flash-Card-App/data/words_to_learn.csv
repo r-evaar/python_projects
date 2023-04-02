@@ -1,5 +1,6 @@
 ﻿English,Arabic
 the,ال
+of,ل
 in,في
 and,و
 a,أ
@@ -18,6 +19,7 @@ from,من
 his,له
 it,هو - هي
 an,و
+were,كان
 which,أيّ
 are,نكون
 also,أيضًا
@@ -37,6 +39,7 @@ her,ها
 who,من
 but,لكن
 not,لا
+they,هم
 have,يملك
 two,اثنين
 been,كان
@@ -46,6 +49,7 @@ when,متى
 into,داخل
 all,الجميع
 time,وقت
+there,هناك
 may,يمكن
 more,أكثر
 school,مدرسة
@@ -102,6 +106,7 @@ i,أنا
 against,ضد
 war,حرب
 history,تاريخ
+family,عائلة
 life,حياة
 until,حتى
 following,التالي
@@ -147,6 +152,7 @@ october,اكتوبر
 august,أغسطس
 will,سوف
 same,نفس
+april,أبريل
 each,كل
 began,بدأ
 found,وجد
@@ -172,6 +178,7 @@ former,سابق
 amp,أمبير
 due,حق
 song,أغنية
+now,الآن
 population,سكان
 named,اسم الشيئ
 took,أخذ
@@ -196,6 +203,7 @@ did,فعل
 final,أخير
 games,ألعاب
 service,خدمة
+along,على امتداد
 could,استطاع
 any,أي
 best,أفضل
@@ -210,15 +218,19 @@ species,صِنف
 built,مبني
 death,موت
 village,قرية
+president,رئيس
 like,يحب
 said,قال
 major,رئيسي
 died,مات
+left,غادر
 published,نشرت
 show,يعرض
+st,شارع
 include,يشمل
 main,رئيسي
 third,ثالث
+five,خمسة
 although,بالرغم من
 according,حسب
 included,وشملت
@@ -240,6 +252,7 @@ army,جيش
 those,أولئك
 own,ملك
 book,كتاب
+development,تطوير
 law,قانون
 among,ضمن
 still,ما زال
@@ -270,6 +283,7 @@ late,متأخر
 again,مرة أخرى
 english,إنجليزي
 water,ماء
+side,جانب
 original,إبداعي
 play,يلعب
 near,قريب
@@ -295,6 +309,7 @@ much,كثيراً
 off,عن
 power,قوة
 started,بدأت
+production,إنتاج
 having,نأخذ
 support,يدعم
 london,لندن
@@ -319,7 +334,9 @@ worked,عمل
 joined,انضم
 television,التلفاز
 player,لاعب
+western,الغربي
 director,مخرج
+given,منح
 father,أب
 association,منظمة
 various,متنوع
@@ -340,8 +357,10 @@ returned,عاد
 produced,أنتجت
 business,عمل
 department,قسم
+england,إنكلترا
 wrote,كتب
 social,اجتماعي
+created,مخلوق
 royal,الملكي
 students,طلاب
 program,برنامج
@@ -400,11 +419,13 @@ james,جوامع
 appointed,تعيين
 minister,وزير
 d,د
+release,يطلق
 teams,فرق
 debut,أول مرة
 signed,وقعت
 awards,جوائز
 control,يتحكم
+la,لا
 recorded,مسجل
 hall,قاعة
 george,جورج
@@ -437,6 +458,7 @@ forces,القوات
 case,قضية
 points,نقاط
 similar,مشابه
+others,آحرون
 result,نتيجة
 lead,يقود
 popular,شائع
@@ -460,6 +482,9 @@ average,متوسط
 america,أمريكا
 example,مثال
 committee,لجنة
+australian,أسترالي
+across,عير
+songs,الأغاني
 science,علوم
 gt,GT
 little,قليل
@@ -475,6 +500,7 @@ schools,المدارس
 rock,صخر
 himself,نفسه
 throughout,طَوَال
+despite,بالرغم من
 players,اللاعبون
 tour,رحلة
 never,أبداً
@@ -508,6 +534,7 @@ study,يذاكر
 chief,رئيس
 followed,يتبع
 daughter,بنت
+gave,أعطى
 currently,حالياً
 stage,منصة
 sea,بحر
@@ -523,9 +550,11 @@ should,يجب
 civil,مدني
 europe,أوروبا
 studies,دراسات
+china,الصين
 available,متاح
 features,سمات
 reported,ذكرت
+j,ي
 half,نصف
 robert,روبرت
 fire,نار
@@ -539,6 +568,7 @@ federal,الفيدرالية
 leading,قيادة
 light,ضوء
 space,فضاء
+character,شخصية
 section,قسم
 private,خاص
 groups,مجموعات
@@ -547,6 +577,7 @@ instead,بدلاً من
 refer,يشير إلى
 washington,واشنطن
 championships,البطولات
+includes,يشمل
 front,أمام
 largest,أكبر
 charles,تشارلز
@@ -572,6 +603,7 @@ movement,حركة
 involved,متضمن
 kingdom,مملكة
 medical,طبي
+fourth,رابع
 sports,رياضات
 chinese,صينى
 seen,مرئي
@@ -593,6 +625,7 @@ canadian,كندي
 films,أفلام
 get,يحصل
 degree,درجة
+model,نموذج
 change,يتغير
 able,قادر
 usually,عادة
@@ -625,6 +658,7 @@ above,فوق
 action,فعل
 lower,أدنى
 week,أسبوع
+least,الأقل
 historic,تاريخية
 bridge,كوبري
 industry,صناعة
@@ -646,17 +680,23 @@ aircraft,الطائرات
 africa,أفريقيا
 scored,يحرز هدف
 attended,حضرها
+technology,تكنولوجيا
 base,قاعدة
 beginning,بداية
 contract,عقد
 placed,وضعت
 saw,رأى
+valley,الوادي
+market,سوق
 ground,أرضي
 operations,عمليات
+systems,الأنظمة
 decided,مقرر
+p,ص
 almost,بالكاد
 results,نتائج
 introduced,قدَّم
+shows,عروض
 hill,تلة
 prior,قبل
 native,محلي
@@ -681,6 +721,7 @@ african,الأفريقي
 v,الخامس
 collection,مجموعة
 initially,بدءًا
+future,مستقبل
 star,نجمة
 commission,عمولة
 start,يبدأ
@@ -694,13 +735,18 @@ officer,ضابط
 families,العائلات
 foreign,أجنبي
 whose,لمن
+structure,بناء
 regular,عادي
 natural,طبيعي
+trade,تجارة
 texas,تكساس
 basketball,كرة سلة
 put,يضع
 provide,يمد
+winning,الفوز
 successful,ناجح
+novel,رواية
+brought,أحضر
 municipality,البلدية
 higher,أعلى
 staff,طاقم عمل
@@ -746,6 +792,7 @@ square,مربع
 below,أقل
 met,التقى
 child,طفل
+energy,طاقة
 roman,روماني
 real,حقيقي
 plays,يلعب
@@ -775,12 +822,15 @@ whom,مَن
 olympics,الألعاب الأولمبية
 peter,نفذ
 bill,فاتورة
+hit,يضرب
 course,دورة
+security,حماية
 annual,سنوي
 airport,مطار
 brown,بني
 soviet,السوفيتية
 richard,ريتشارد
+ireland,أيرلندا
 mountain,جبل
 practice,يمارس
 places,أماكن
@@ -798,6 +848,7 @@ closed,مغلق
 issues,مشاكل
 individual,فردي
 selected,المحدد
+virginia,فرجينيا
 studied,درس
 matches,اعواد الكبريت
 numerous,عديد
@@ -828,6 +879,8 @@ entered,دخلت
 genus,جنس
 elections,انتخابات
 mark,علامة
+financial,مالي
+our,ملكنا
 loss,خسارة
 chicago,شيكاغو
 sound,صوت
@@ -874,6 +927,7 @@ caused,تسبب
 mary,ماري
 terms,شروط
 stone,حجر
+characters,الشخصيات
 seat,مقعد
 decision,قرار
 overall,إجمالي
@@ -888,9 +942,11 @@ operated,تعمل
 room,غرفة
 programs,البرامج
 meeting,مقابلة
+cross,يعبر
 serving,خدمة
 van,سيارة نقل
 thought,معتقد
+particularly,خصوصًا
 evidence,شهادة
 hours,ساعات
 status,حالة
