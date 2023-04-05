@@ -65,6 +65,7 @@ class QuizUI:
 
         # --- Threading ----------------------- #
 
+
         # --- Startup ------------------------- #
         self.update_question()
         self.root.mainloop()
