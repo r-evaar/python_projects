@@ -1,0 +1,46 @@
+{
+    "prices": [
+        {
+            "city": "Paris",
+            "iataCode": "CDG",
+            "lowestPrice": 500,
+            "id": 2
+        },
+        {
+            "city": "Berlin",
+            "iataCode": "BER",
+            "lowestPrice": 500,
+            "id": 3
+        },
+        {
+            "city": "Tokyo",
+            "iataCode": "HND",
+            "lowestPrice": 650,
+            "id": 4
+        },
+        {
+            "city": "Sydney",
+            "iataCode": "SYD",
+            "lowestPrice": 700,
+            "id": 5
+        },
+        {
+            "city": "Istanbul",
+            "iataCode": "IST",
+            "lowestPrice": 350,
+            "id": 6
+        },
+        {
+            "city": "Londn",
+            "iataCode": "LHR",
+            "lowestPrice": 400,
+            "id": 7
+        },
+        {
+            "city": "New York",
+            "iataCode": "JFK",
+            "lowestPrice": 600,
+            "id": 8
+        }
+    ]
+}
