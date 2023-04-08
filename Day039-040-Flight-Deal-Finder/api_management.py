@@ -10,9 +10,9 @@ class APIManager:
         self.ep = ep
         self.key = key
         self.simulate = simulate
-        self.NUM_OBJ += 1
+        APIManager.NUM_OBJ += 1
         self.cache_filename = \
-            f"{self.__class__.__name__}_{self.NUM_OBJ:05d}.json"
+            f"{self.__class__.__name__}_{APIManager.NUM_OBJ:05d}.json"
         self.headers = {
             f'{key_name}': key
         }
@@ -33,4 +33,10 @@ class APIManager:
             with open(self.cache_filename, 'w') as f:
                 json.dump(response, f, indent=4)
 
+        return response
+
+    def post(self, data):
+        response = requests.post(url=self.ep, json=data, headers=self.headers)
+        response.raise_for_status()
+        response = response.json()
         return response

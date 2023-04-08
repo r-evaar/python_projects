@@ -1,0 +1,6 @@
+# Self-closing tags
+* Does not need an ending tag </tagname>
+* Example: <br>
+
+# Boilerplate code
+* sections of code that are repeated in multiple places with little to no variation
