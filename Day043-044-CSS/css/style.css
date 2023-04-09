@@ -1,0 +1,44 @@
+:root{
+    --CLR_BG: #CBE4DE
+}
+.cvHeader {
+    background-color: var(--CLR_BG);
+}
+h2 {
+    color: #0E8388;
+    font-family: system-ui;
+}
+h5{
+    color: #DD4D4F;
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 0;
+    margin-bottom: 0px;
+    margin-top: 10%;
+}
+thead th{
+    text-align: left;
+    color: #2E4F4F;
+    font-family: math;
+}
+h1{
+    color: #2C3333;
+    font-family: system-ui;
+}
+.dots{
+    background-color: --CLR_BG;
+    border-style: none;
+    border-top: dotted;
+    border-color: lightgray;
+    border-width: 10px;
+    width: 8%;
+}
+.T{
+    background-color: white;
+    height:2px;
+    border: none;
+}
+.software-txt{
+    margin-bottom: 0px;
+    margin-top: 5%;
+}

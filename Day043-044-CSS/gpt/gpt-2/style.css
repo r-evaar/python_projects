@@ -1,0 +1,186 @@
+
+/* Global Styles */
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+.section-title {
+	text-align: center;
+	margin-bottom: 40px;
+	font-size: 32px;
+}
+/* Navigation Styles */
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 20px;
+}
+nav a:hover {
+	text-decoration: underline;
+}
+/* Banner Styles */
+.banner-section {
+	background-color: #f2f2f2;
+	padding: 80px 0;
+	text-align: center;}
+    .banner-section h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+        }
+        .banner-section p {
+        font-size: 24px;
+        margin-bottom: 40px;
+        }
+        .banner-section a {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        }
+        .banner-section a:hover {
+        background-color: #444;
+        }
+        .about-section {
+        padding: 80px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        }
+        .about-section img {
+        width: 40%;
+        margin-right: 40px;
+        }
+        .about-section h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        }
+        .about-section p {
+        font-size: 20px;
+        margin-bottom: 40px;
+        }
+        / Skills Section Styles /
+        .skills-section {
+        padding: 80px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        }
+        .skills-card {
+        background-color: #fff;
+        box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        padding: 20px;
+        width: calc(33.33% - 20px);
+        margin-bottom: 40px;
+        }
+        .skills-card i {
+        font-size: 48px;
+        margin-bottom: 20px;
+        color: #333;
+        }
+        .skills-card h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        }
+        .skills-card p {
+        font-size: 16px;
+        line-height: 1.5;
+        }
+        / Portfolio Section Styles /
+        .portfolio-section {
+        padding: 80px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        }
+        .portfolio-card {
+        background-color: #fff;
+        box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        width: calc(33.33% - 20px);
+        margin-bottom: 40px;
+        }
+        .portfolio-card img {
+        width: 100%;
+        height: auto;
+        }
+        .portfolio-card h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        }
+        .portfolio-card p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+        }
+        .portfolio-card a {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 16px;
+        text-decoration: none;
+        border-radius: 5px;
+        }
+        .portfolio-card a:hover {
+        background-color: #444;
+        }
+        / Contact Section Styles */
+        .contact-section {
+        background-color: #333;
+        padding: 80px 0;
+        }
+        .contact-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        }
+        .contact-card {
+        background-color: #444;
+        box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        padding: 20px;
+        width: calc(50% - 20px);
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        }
+        .contact-card i {
+        font-size: 36px;
+        margin-right: 20px;
+        color: #fff;
+        }
+        .contact-card p {
+        font-size: 20px;
+        color: #fff;
+        margin-bottom: 0;
+        }
+        .contact-card a {
+        font-size: 20px;
+        color: #fff;
+        text-decoration: none;
+        }
