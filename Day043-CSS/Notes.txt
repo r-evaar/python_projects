@@ -1,0 +1,4 @@
+CSS pseudo-class: 
+* refers to the state of a CSS element
+* example: button:hover {property:value;}
+

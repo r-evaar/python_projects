@@ -1,0 +1,112 @@
+:root {
+    --CLR-BGR: #21252B;
+    --CLR-DIV: #282C34;
+    --CLR-HLT: #2C313C;
+    --CLR-TXT: #F2EFF0;
+    --CLR-SYM: #FA9271;
+    --CLR-ITM: #E46664;
+}
+
+body {
+    background-color: var(--CLR-HLT);
+    color: white;
+    margin: 0;
+}
+
+hr {
+    background-color: azure;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+}
+
+.div1 {
+    background-color: var(--CLR-ITM);
+    position: relative;
+    right: 50px;
+}
+
+.div2 {
+    background-color: var(--CLR-SYM);
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.div3 {
+    background-color: var(--CLR-TXT);
+}
+
+.div4 {
+    background-color: red;
+    display: inline-block;
+    position: relative;
+    left: 210px;
+}
+
+.div5 {
+    background-color: blue;
+    display: inline-block;
+    position: relative;
+    right: 100px;
+}
+
+.div6 {
+    background-color: yellow;
+    display: inline-block;
+    position: relative;
+    right: 100px;
+}
+
+.div7 {
+    background-color: rgb(160, 224, 206);
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.div8 {
+    background-color: rgb(11, 70, 50);
+    position:absolute;
+    left: 50px;
+    top: 50px;
+    
+}
+
+.div9 {
+    background-color: rgb(30, 38, 154);
+}
+
+.div10 {
+    background-color: yellow; color: black;
+    position: absolute;
+    top:0; left: 0;
+}
+
+.div11 {
+    background-color: blue;
+    position: absolute;
+    top:100px; left: 100px;
+}
+
+.div12 {
+    background-color: red;
+    position: absolute;
+    top:200px; left: 200px;
+}
+
+.div13 {
+    background-color: blanchedalmond;
+    position: relative;
+    width: 300px; height: 300px;
+}
+
+.overlay {
+    background-color: rgb(104, 132, 75);
+    display: flex; align-items: center; justify-content: center;
+    position: fixed;
+    right: 0;
+    top: 0;
+}

@@ -1,0 +1,76 @@
+.main-axis{
+    background-color: rgb(218, 196, 191);
+}
+
+.cross-axis{
+    background-color: rgb(191, 195, 218);
+}
+
+.flexbox-container {
+    background-color: rgb(116, 148, 148);
+    display: flex;
+}
+
+.flex-start{
+    justify-content: flex-start; /* Default */
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.stretch {
+    align-items: stretch; /* Default */
+}
+
+.flex-start-cross {
+    align-items: flex-start;
+}
+
+.center-cross {
+    align-items: center;
+}
+
+.align-content {
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.column {
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.flexbox-item {
+    background-color: lightgray;
+    border: 3px solid #4a4949;
+    width: 300px;
+    margin: 10px;
+}
+
+.flexbox-item1 {
+    min-height: 20px;
+}
+
+.flexbox-item2 {
+    min-height: 50px;
+}
+
+.flexbox-item3 {
+    min-height: 80px;
+}
+
+h2 {
+    margin-top: 30px;
+}

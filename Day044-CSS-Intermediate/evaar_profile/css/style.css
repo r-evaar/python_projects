@@ -1,0 +1,65 @@
+:root {
+    --CLR-BGR: #21252B;
+    --CLR-DIV: #282C34;
+    --CLR-HLT: #2C313C;
+    --CLR-TXT: #F2EFF0;
+    --CLR-SYM: #FA9271;
+    --CLR-ITM: #E46664;
+}
+
+h1 {margin: 0px;}
+p {margin: 0px;}
+
+body {
+    color: var(--CLR-TXT);
+    background-color: var(--CLR-BGR);
+    text-align: center;
+    margin: 0;
+}
+
+div {
+    background: var(--CLR-HLT);
+}
+
+.sky-flex-container {
+    background-color: azure; 
+    display: flex;
+    justify-content: center;
+}
+
+.Top-Container {
+    background-color: azure; color: var(--CLR-DIV);
+    width: 700px;
+    display: flex;
+    position: relative;
+    padding-top: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Mid-Container{
+    width: 200px;
+    height: 200px;
+    background-color: var(--CLR-ITM);
+}
+
+.Bot-Container{
+    width: 200px;
+    height: 200px;
+    background-color: var(--CLR-SYM);
+}
+
+.item {
+    color: var(--CLR-ITM);
+}
+
+.cloud-top {
+    position: relative;
+    left: 30%;
+}
+
+.cloud-bot {
+    position: absolute;
+    left: 10%;
+    bottom: 50%;
+}

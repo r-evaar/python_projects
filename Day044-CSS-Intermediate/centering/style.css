@@ -1,0 +1,26 @@
+:root {
+    --CLR-BGR: #21252B;
+    --CLR-DIV: #282C34;
+    --CLR-HLT: #2C313C;
+    --CLR-TXT: #F2EFF0;
+    --CLR-SYM: #FA9271;
+    --CLR-ITM: #E46664;
+}
+
+body {
+    background-color: var(--CLR-BGR);
+    color: var(--CLR-TXT);
+    text-align: center;
+}
+
+div{
+    background-color: var(--CLR-DIV);
+    height: 80px;
+    
+    display: flex; align-items: center; 
+}
+
+.centering {
+    width: 20%;
+    margin: 0 auto 0 auto;
+}
