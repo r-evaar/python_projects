@@ -5,52 +5,128 @@
     --CLR-TXT: #F2EFF0;
     --CLR-SYM: #FA9271;
     --CLR-ITM: #E46664;
+    --CLR-SUB: #CB854D;
+    --CLR-GRN: #87BA72;
+    --CLR-GRY: #9BA2A1;
 }
 
-h1 {margin: 0px;}
-p {margin: 0px;}
+.subtitle {
+    font-family: 'Nova Mono', sans-serif;
+    font-weight: bold;
+    color: var(--CLR-HLT);
+}
 
 body {
     color: var(--CLR-TXT);
     background-color: var(--CLR-BGR);
-    text-align: center;
+    /*text-align: center;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
     margin: 0;
 }
 
-div {
-    background: var(--CLR-HLT);
+
+h1 {
+    margin: 0px;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+h2 {
+    margin: 20px 0 0 0;
+    font-family: 'Alkatra', sans-serif;
+}
+
+h3 { 
+    margin: 0;
+    font-family: 'Alkatra', sans-serif; 
+}
+
+p {
+    margin: 0px;
+    font-family: 'Nova Mono', sans-serif;
+}
+
+a {
+    font-family: 'Mochiy Pop One', sans-serif;
+    text-decoration: none;
+}
+
+.btn {
+    color: cadetblue;
+    margin: 50px 0;
+    display: inline-block;
+    font-size: 0.75rem; 
+    /*
+    1 em is equivalent to 1x16px, and is used for dynamic font resizing (in browser settings)
+    
+    1 problem: em (or percentage) font style is inherited (value accumulates instead of being overridden)
+
+    Instead, use 'rem'
+    
+    */
+    background-color: var(--CLR-TXT);
+    padding: 10px;
+    background-blend-mode: hue;
+    border-radius: 20%;
+}
+
+.btn:hover {
+    color: #814e5f;
+    background-color: #9BA2A1;
+}
+
+hr {
+    margin: 15px;
+}
+
+.main-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .sky-flex-container {
     background-color: azure; 
-    display: flex;
-    justify-content: center;
+    width: 100%;
 }
 
-.Top-Container {
+.top-container {
     background-color: azure; color: var(--CLR-DIV);
+
+    /* Positioning */
     width: 700px;
-    display: flex;
     position: relative;
     padding-top: 100px;
     flex-direction: column;
     align-items: center;
 }
 
-.Mid-Container{
-    width: 200px;
-    height: 200px;
-    background-color: var(--CLR-ITM);
+.mid-container{
+    padding-top: 40px;
+    background-color: var(--CLR-DIV);
 }
 
-.Bot-Container{
-    width: 200px;
-    height: 200px;
+.bot-container{
     background-color: var(--CLR-SYM);
+    font-size: small;
+    padding: 2px 0 50px 0;
+    display: static;
 }
 
 .item {
     color: var(--CLR-ITM);
+}
+
+.cloud {
+    width: 20%;
 }
 
 .cloud-top {
@@ -62,4 +138,92 @@ div {
     position: absolute;
     left: 10%;
     bottom: 50%;
+}
+
+.personal { 
+    padding: 25px 0 10px 0;
+    width: 150px; 
+}
+
+.skills{
+    background-color: var(--CLR-HLT);
+    margin-top: 50px;
+    padding: 1px 0 20px 0;
+    
+    width: 100%;
+}
+
+.skills-container {
+    background-color: var(--CLR-HLT);
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.skill-item {
+    background-color: #484c54;
+    min-width: 250px;
+    min-height: 500px;
+    margin: 20px 30px 10px 30px;
+    border-radius: 3%;
+    
+    flex-grow: 0.25;
+    flex-basis: 0;
+    justify-content: center;
+    
+    padding: 25px 0 10px;
+}
+
+.skill-img{
+    width: 40%;
+    border-radius: 100%;
+    margin-bottom: 5%;
+}
+
+li {
+    text-align: left;
+    font-family: 'Nova Mono';
+    padding: 5% 7% 0 0;
+    text-indent: 0;
+}
+
+ul {
+    padding-inline-start: 15%
+}
+
+.lt {
+    color: var(--CLR-SYM);
+}
+
+.lst {
+    color: var(--CLR-SUB);
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.w {
+    color: var(--CLR-TXT);
+}
+
+.dots{
+    border-color: var(--CLR-GRY);
+    width: 8%;
+    margin-top: 40px;
+    
+    border-style: dotted none none none;
+    border-width: 10px;
+}
+
+.h2-last{
+    margin: 60px 0 40px 0;
+    font-size: 3em;
+}
+
+.social {  
+    padding: 20px 10px;
+    display: inline-block;
+}
+
+.social:hover {
+    color: var(--CLR-GRN);
 }

@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Mochiy Pop One';
+    src: url('./MochiyPopOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nova Mono';
+    src: url('./NovaMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alkatra';
+    src: url('./Alkatra-VariableFont_wght.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Coiny';
+    src: url('./Coiny-Regular.woff');
+    font-weight: lighter;
+    font-style: normal;
+}

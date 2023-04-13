@@ -9,29 +9,31 @@
 </head>
 <body>
 
+    <div class="title-container">
+        <h3 class="tutorial">Flex Tutorial - <a href="https://www.youtube.com/watch?v=fYq5PXgSsbE" target="_blank">Video Link</a></h3>
+    </div>
+
     <div class="main-axis">
-        <h2 style="margin-top: 3%;">Justify Content: Main Axis: Flex Start (Default)</h2>
+        <h2 style="margin-top: 3%;">justify-content (Main Axis)</h2>
+        <h4>flex-start (Default) | center | space-between | space-around</h4>
         <div class="flexbox-container flex-start">
             <div class="flexbox-item flexbox-item1 ">Flexbox Item 1</div>
             <div class="flexbox-item flexbox-item2">Flexbox Item 2</div>
             <div class="flexbox-item flexbox-item3">Flexbox Item 3</div>
         </div>
 
-        <h2>Justify Content: Main Axis: Center</h2>
         <div class="flexbox-container justify-center">
             <div class="flexbox-item flexbox-item1 ">Flexbox Item 1</div>
             <div class="flexbox-item flexbox-item2">Flexbox Item 2</div>
             <div class="flexbox-item flexbox-item3">Flexbox Item 3</div>
         </div>
 
-        <h2>Justify Content: Main Axis: Space Between</h2>
         <div class="flexbox-container space-between">
             <div class="flexbox-item flexbox-item1 ">Flexbox Item 1</div>
             <div class="flexbox-item flexbox-item2">Flexbox Item 2</div>
             <div class="flexbox-item flexbox-item3">Flexbox Item 3</div>
         </div>
 
-        <h2>Justify Content: Main Axis: Space Around</h2>
         <div class="flexbox-container space-around">
             <div class="flexbox-item flexbox-item1 ">Flexbox Item 1</div>
             <div class="flexbox-item flexbox-item2">Flexbox Item 2</div>
@@ -42,21 +44,20 @@
     <hr>
 
     <div class="cross-axis">
-        <h2 >Align Items: Cross Axis: Stretch (Default)</h2>
+        <h2>align-items (Cross Axis)</h2>
+        <h4>stretch (Default) | flex-start | center</h4>
         <div class="flexbox-container stretch">
             <div class="flexbox-item flexbox-item1 ">Flexbox Item 1</div>
             <div class="flexbox-item flexbox-item2">Flexbox Item 2</div>
             <div class="flexbox-item flexbox-item3">Flexbox Item 3</div>
         </div>
 
-        <h2>Align Items: Cross Axis: Flex Start</h2>
         <div class="flexbox-container flex-start-cross">
             <div class="flexbox-item flexbox-item1 ">Flexbox Item 1</div>
             <div class="flexbox-item flexbox-item2">Flexbox Item 2</div>
             <div class="flexbox-item flexbox-item3">Flexbox Item 3</div>
         </div>
 
-        <h2>Align Items: Cross Axis: Center</h2>
         <div class="flexbox-container center-cross">
             <div class="flexbox-item flexbox-item1 ">Flexbox Item 1</div>
             <div class="flexbox-item flexbox-item2">Flexbox Item 2</div>
@@ -66,20 +67,61 @@
 
     <hr>
 
-    <h2>flex-wrap=Wrap, align-content=Center</h2>
+    <h2>flex-wrap=wrap, align-content=center</h2>
+    <h4>align-items=self-start</h4>
     <div class="flexbox-container align-content" style="height: 400px;">
         <div class="flexbox-item flexbox-item1 ">Flexbox Item 1</div>
         <div class="flexbox-item flexbox-item2">Flexbox Item 2</div>
         <div class="flexbox-item flexbox-item3">Flexbox Item 3</div>
     </div>
 
-    <h2>flex-direction=column, align-items=flex-start;</h2>
+    <h2>flex-wrap=wrap, align-content=self=start</h2>
+    <h4>align-items=self-start</h4>
+    <div class="flexbox-container align-content-start" style="height: 400px;">
+        <div class="flexbox-item flexbox-item1 ">Flexbox Item 1</div>
+        <div class="flexbox-item flexbox-item2">Flexbox Item 2</div>
+        <div class="flexbox-item flexbox-item3">Flexbox Item 3</div>
+    </div>
+
+    <h2>flex-direction=column, align-items=flex-start</h2>
     <div class="flexbox-container column" style="height: 400px;">
         <div class="flexbox-item flexbox-item1 ">Flexbox Item 1</div>
         <div class="flexbox-item flexbox-item2">Flexbox Item 2</div>
         <div class="flexbox-item flexbox-item3">Flexbox Item 3</div>
     </div>
 
+    <hr>
+
+    <h2>flex-shrink</h2>
+    <h4>First item does not shrink, other items grows at different rate</h4>
+    <div class="flexbox-container flex-start">
+        <div class="flexbox-item flexbox-item1 shrinks">Flexbox Item 1</div>
+        <div class="flexbox-item flexbox-item2 grows">Flexbox Item 2</div>
+        <div class="flexbox-item flexbox-item3 grows2">Flexbox Item 3</div>
+    </div>
+
+    <h2>flex-grow</h2>
+    <h4>First item grows twice as fast as second item</h4>
+    <div class="flexbox-container flex-start">
+        <div class="flexbox-item flexbox-item1 grows-b2">Flexbox Item 1</div>
+        <div class="flexbox-item flexbox-item2 grows-b1">Flexbox Item 2</div>
+    </div>
+
+    <h2>align-self</h2>
+    <h4>Middle item (center) overrides the cross axis alignment property (stretch)</h4>
+    <div class="flexbox-container flex-start">
+        <div class="flexbox-item flexbox-item1 grows">Flexbox Item 1</div>
+        <div class="flexbox-item flexbox-item2 grows overrides">Flexbox Item 2</div>
+        <div class="flexbox-item flexbox-item3 grows">Flexbox Item 3</div>
+    </div>
+
+    <h2>order</h2>
+    <h4>change order of items in style.css without editing index.html</h4>
+    <div class="flexbox-container flex-start">
+        <div class="flexbox-item flexbox-item1 order3">Flexbox Item 1</div>
+        <div class="flexbox-item flexbox-item2 order1">Flexbox Item 2</div>
+        <div class="flexbox-item flexbox-item3 order2">Flexbox Item 3</div>
+    </div>
 
 </body>
 </html>

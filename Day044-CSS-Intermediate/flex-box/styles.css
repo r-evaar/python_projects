@@ -9,6 +9,7 @@
 .flexbox-container {
     background-color: rgb(116, 148, 148);
     display: flex;
+    margin: 5px 0 5px 0;
 }
 
 .flex-start{
@@ -40,11 +41,17 @@
 }
 
 .align-content {
-    justify-content: center;
-    align-items: center;
+    align-items: self-start;
 
     flex-wrap: wrap;
     align-content: center;
+}
+
+.align-content-start {
+    align-items: self-start;
+
+    flex-wrap: wrap;
+    align-content: self-start;
 }
 
 .column {
@@ -55,7 +62,7 @@
 .flexbox-item {
     background-color: lightgray;
     border: 3px solid #4a4949;
-    width: 300px;
+    width: 250px;
     margin: 10px;
 }
 
@@ -73,4 +80,53 @@
 
 h2 {
     margin-top: 30px;
+}
+
+.shrinks {
+    flex-shrink: 0;
+}
+
+.grows {
+    flex-grow: 1; 
+}
+
+.grows2 {
+    flex-grow: 3; 
+    /* 
+        Takes 3:1 of the extra remaining space 
+        OR
+        flex-basis = current width
+    */
+}
+
+.grows-b1 {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.grows-b2 {
+    flex-basis: 0;
+    flex-grow: 2;
+}
+
+.overrides{ align-self: center; }
+
+.order1 { order: 1; }
+.order2 { order: 2; }
+.order3 { order: 3; }
+
+.tutorial{
+    background-color: #4a4949;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    display: inline;
+}
+
+a{
+    color: rgb(221, 221, 235);
+}
+
+.title-container {
+    text-align: center;
 }
