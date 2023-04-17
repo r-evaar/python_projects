@@ -1,0 +1,9 @@
+URL = 'https://www.billboard.com/charts/hot-100/#'
+GRAPHICS_PATH = './graphics/'
+CLR_BG = '#a3b4b5'
+CLR_BTN = '#f7feff'
+CLR_BTN_BG = '#657d80'
+FONT_TXT = ('Alkatra', 12, 'normal')
+FONT_BTN = ('Alkatra', 10, 'normal')
+FONT_BAR = ('Alkatra', 8, 'normal')
+W, H = 600, 200
