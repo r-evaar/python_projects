@@ -1,0 +1,17 @@
+* {
+    margin: 1vw;
+    padding: 0;
+}
+
+body {
+    color: rgb(66, 93, 117);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-main img {
+    border-radius: 66% 34% 77% 23% / 54% 54% 46% 46% ;
+}
