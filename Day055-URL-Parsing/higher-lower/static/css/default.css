@@ -3,7 +3,24 @@
     padding: 0;
 }
 
+html {
+    font-family: Caveat;
+}
+
 body {
+    display: grid;
+    grid-template-areas: 
+    "a0 a1 a1 a1 a2"
+    "a0 a1 a1 a1 a2"
+    "a0 a1 a1 a1 a2"
+    "a0 f0 f0 f0 a2";
+}
+
+body > * {
+    border-radius: 25vw;
+}
+
+main {
     color: rgb(66, 93, 117);
 
     display: flex;
@@ -12,6 +29,89 @@ body {
     justify-content: center;
 }
 
+.a0 {
+    grid-area: a0;
+    background-color: rgba(212, 229, 235, 0.452);
+}
+
+.a1 {
+    grid-area: a1;
+}
+
+.a2 {
+    background-color: rgba(215, 220, 196, 0.452);
+    grid-area: a2;
+}
+
+.f0 {
+    background-color: rgba(90, 116, 110, 0.344);
+    grid-area: f0;
+
+    display: flex;
+    place-content: center;
+    place-items: center;
+
+    grid-column: 3 / 4;
+
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    color: rebeccapurple;
+}
+
+.f0:visited {
+    color: rebeccapurple;
+}
+
+.f0:hover {
+    background-color: rgba(90, 116, 110, 0.5);
+}
+
+.f0:active {
+    background-color: rgba(90, 103, 116, 0.5);
+}
+
 .img-main img {
     border-radius: 66% 34% 77% 23% / 54% 54% 46% 46% ;
+    width: 60vw;
+}
+
+@media (min-aspect-ratio: 1 / 1){
+    .img-main img {
+        width: 60vh;
+    }
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+@font-face {
+    font-family: Caveat;
+    src: url('./fonts/Caveat.woff');
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+form input, form button {
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+form button{
+    background-color: rgba(216, 216, 216, 0.5);
+    color: rgb(54, 81, 84);
+    border: none;
+}
+
+form button:hover {
+    background-color: rgba(216, 216, 216, 0.25);
+    cursor: pointer;
+}
+
+form button:active {
+    background-color: rgba(57, 209, 191, 0.392);
 }

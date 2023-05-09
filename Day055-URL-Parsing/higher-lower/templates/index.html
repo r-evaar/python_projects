@@ -1,11 +1,34 @@
 <head>
-    <link rel="stylesheet" href="{{url_for('static', filename='css/default.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/'+css+'.css')}}">
 </head>
 <body>
-    <h1>
-        Guess a number between 0 and 9
-    </h1>
-    <div class='img-main'>
-        <img src="{{url_for('static', filename='graphics/num.gif')}}" alt="numbers">
-    </div>
+    <div class="a0"></div>
+    <main class="a1">
+        <h1>
+            {{ num }}{{ txt }}
+        </h1>
+        <div class='img-main'>
+            <img src="{{url_for('static', filename='graphics/'+img+'.gif')}}" alt="numbers">
+            <form method="get" id="main-form">
+                <input type="number" name="guess", value="0" min="0" max="9">
+                <button type="button" onclick="submitForm()">Guess</button>
+            </form>
+        </div>
+    </main>
+    <div class="a2"></div>
+    <a class="f0" href="/home">Restart</a>
 </body>
+
+<script>
+    function submitForm() {
+        var formData = new FormData(document.getElementById('main-form'));
+
+        var guess = formData.get('guess');
+        console.log(guess);
+
+        var query = `/home/${guess}`;
+        console.log(query);
+
+        window.location.href = query;
+    };
+</script>
