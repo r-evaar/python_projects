@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="static/css/style.css">
+        <title>Evaar</title>
+    </head>
+    <body>
+        <main class="glass">
+            <div class="container allocated">
+                <h1>Hello World</h1>
+                <h2>5 * 6 = {{ 5*6 }}</h2>
+                <h3>Random number: {{ rand_num }}</h3>
+            </div>
+            <div class="container allocated">
+                <h1>Enter Your Name</h1>
+                <div id="interface">
+                    <input type="text" name="nameEntry" id="name-input">
+                    <a class="btn-m" type="button" onclick="routeToGuess()">Guess!</a>
+                </div>
+            </div>
+            <div class="appending-container">
+                
+            </div>
+            <div class="lower-btns">
+                <a class="btn-m" href="/">Restart</a>
+                <a class="btn-m" href="/blog">Blog</a>
+            </div>
+        </main>
+        <footer>
+            <p>@Copyright {{year}}. Built by {{author}}.</p>
+        </footer>
+    </body>
+    <script src="static/js/nameSubmission.js" defer></script>
+    <script src="static/js/main.js" defer></script>
+</html>
